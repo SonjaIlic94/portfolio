@@ -2,6 +2,7 @@ body,
 html {
     height: 100%;
     background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -26,7 +27,7 @@ html {
 
 }
 
-.nav-list-item:hover {
+.list-item:hover {
     background-color: #111;
 }
 
@@ -97,6 +98,17 @@ a {
 }
 
 .upgrad-img:hover {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    margin: auto;
+}
+
+.weather-img {
+    height: 400px;
+    width: 400px;
+}
+
+.weather-img:hover {
     filter: blur(2px);
     -webkit-filter: blur(2px);
     margin: auto;
