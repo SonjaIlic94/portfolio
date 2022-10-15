@@ -70,10 +70,8 @@ a {
     margin: auto;
 }
 
-.column-left {
+.content {
     color: white;
-    float: left;
-    width: 33.33%;
 }
 
 .column-right {
@@ -81,4 +79,44 @@ a {
     width: 66.66%;
     text-align: center;
     color: white;
+}
+
+.show-go-img {
+    height: 500px;
+}
+
+.show-go-img:hover {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    margin: auto;
+}
+
+.upgrad-img {
+    height: 250px;
+    width: 250px;
+}
+
+.upgrad-img:hover {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    margin: auto;
+}
+
+/* .container:hover {
+    background-color: rgb(225, 178, 50);
+} */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 50px;
+    background-color: #333;
+    border-radius: 5px;
 }
