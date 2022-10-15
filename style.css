@@ -1,25 +1,29 @@
 body,
 html {
     height: 100%;
+    background-color: #333;
 }
 
 
-.nav-list {
+.list {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     background-color: #333;
     position: sticky;
+
 }
 
 
 
-.nav-list-item {
+.list-item {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: auto;
+
 }
 
 .nav-list-item:hover {
@@ -31,9 +35,50 @@ html {
     padding: 14px 16px;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    height: 50%;
+}
+
 .bg-image {
     height: 100%;
     background-position: center;
     background-size: cover;
     width: 100%;
+    margin: auto;
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.column-left {
+    color: white;
+    float: left;
+    width: 33.33%;
+}
+
+.column-right {
+    float: right;
+    width: 66.66%;
+    text-align: center;
+    color: white;
 }
