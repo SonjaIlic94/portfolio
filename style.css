@@ -1,3 +1,9 @@
+body,
+html {
+    height: 100%;
+}
+
+
 .nav-list {
     list-style-type: none;
     margin: 0;
@@ -23,4 +29,11 @@
 #nav-title {
     float: left;
     padding: 14px 16px;
+}
+
+.bg-image {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
 }
